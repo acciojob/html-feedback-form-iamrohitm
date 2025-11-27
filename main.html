@@ -10,19 +10,19 @@
 	<!-- the entire body must be written by student -->
 	<form method="post">
 		<label for="name">Name</label>
-		<input type="text" id="name" minlength="3" maxlength="50" required>
+		<input type="text" id="name" minlength="3" maxlength="50" name="name" required>
 		<br><br>
 		
 		<label for="portfolio">Portfolio</label>
-		<input type="url" required>
+		<input id="portfolio" type="url" name="portfolio" required>
 		<br><br>
 
 		<label for="favColor">Favorite Color</label>
-		<input id="favColor">
+		<input id="favColor" type="color">
 		<br><br>
 
 		<label for="likeness">Likeness</label>
-		<input id="likeness" type="range" min="1" max="100">
+		<input id="likeness" type="range" min="1" max="100" name="likeness">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
